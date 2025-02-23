@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Extension Template with webpack",
+    "version": "1.0.0",
+    "description": "Extension template with - Manifest v3 support - Webpack bundling & TypeScript - Background & content scripts - Auto-copy assets (HTML, CSS) - Ready-to-use .gitignore ",
+    "background": {
+      "service_worker": "background.bundle.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.bundle.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [],
+    "host_permissions": ["<all_urls>"]
+  }
+  

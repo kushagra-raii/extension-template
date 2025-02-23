@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Build output
+dist/
+*.bundle.js
+*.map
+
+# Webpack cache
+.cache/
+.cache-loader/
+.DS_Store
+
+# Editor & OS-specific files
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
+*.swn
+Thumbs.db
+
