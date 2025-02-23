@@ -29,6 +29,6 @@ npm run build
 ```
 4. Load the Extension in Chrome
 - Open chrome://extensions/
-- able Developer Mode
-- ick Load Unpacked
-- lect the dist/ folder
+- Enable Developer Mode
+- Click Load Unpacked
+- Select the dist/ folder
